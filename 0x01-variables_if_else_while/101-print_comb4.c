@@ -22,7 +22,7 @@ int main(void)
 			a = 48;
 			while (a < 58)
 			{
-				if (c != b != a &&c < b < a)
+				if (c != b && b != a && c != a && c < b && b < a)
 				{
 					putchar(c);
 					putchar(b);
