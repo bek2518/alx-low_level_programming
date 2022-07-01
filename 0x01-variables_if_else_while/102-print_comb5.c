@@ -25,14 +25,17 @@ int main(void)
 					op2 = (b * 10) + a;
 					if (op1 < op2)
 					{
-						putchar(d);
-						putchar(c);
-						putchar(' ');
-						putchar(b);
-						putchar(a);
-						if (d == 57 && c == 56 && b == 57 && a == 57)
-						putchar(',');
-						putchar(' ');
+					putchar(d);
+					putchar(c);
+					putchar(' ');
+					putchar(b);
+					putchar(a);
+					if (d == 57 && c == 56 && b == 57 && a == 57)
+					{
+						break;
+					}
+					putchar(',');
+					putchar(' ');
 					}
 					a++;
 				}
