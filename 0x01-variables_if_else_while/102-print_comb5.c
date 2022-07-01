@@ -7,27 +7,43 @@
  */
 int main(void)
 {
-	int a, b;
+	int a, b, c, d, op1, op2;
 
-	a = 48;
-	b = 48;
-
-	while (b < 58)
+	a = b = c = d = 48;
+	while (d < 58)
 	{
-		a = 48;
-		while (a < 58)
+		c = 48;
+		while (c < 58)
 		{
-			putchar(b);
-			putchar(a);
-			if (a == 57 && b == 57)
+			b = 48;
+			while (b < 58)
 			{
-				break;
+				a = 48;
+				while (a < 58)
+				{
+					op1 = (d * 10) + c;
+					op2 = (b * 10) + a;
+					if (op1 < op2)
+					{
+						putchar(d);
+						putchar(c);
+						putchar(' ');
+						putchar(b);
+						putchar(a);
+						if (d == 57 && c == 56 && b== 57 && a == 57)
+						{
+						break;
+						}
+						putchar(',');
+						putchar(' ');
+					}
+					a++;
+				}
+				b++;
 			}
-			putchar(',');
-			putchar(' ');
-			a++;
+			c++;
 		}
-		b++;
+		d++;
 	}
 	putchar('\n');
 	return (0);
