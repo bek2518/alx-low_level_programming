@@ -23,12 +23,6 @@ int main(void)
 			{
 				break;
 			}
-			putchar(a);
-			putchar(b);
-			if (a == 57 && b == 57)
-			{
-				break;
-			}
 			putchar(',');
 			putchar(' ');
 			a++;
