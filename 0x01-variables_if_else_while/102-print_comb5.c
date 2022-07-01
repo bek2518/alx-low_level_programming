@@ -11,24 +11,14 @@ int main(void)
 
 	a = 48;
 	b = 48;
-	
-	while (b < 58)
-	{
-		a = 48;
-		while (a < 58)
-		{
-			putchar(b);
-			putchar(a);
-			if (a == 57 && b == 57)
-			{
-				break;
-			}
-			putchar(',');
-			putchar(' ');
-			a++;
+	{	
+		putchar(b);
+		putchar(a);
+		putchar(',');
+		putchar(' ');
+		a++;
 		}
-		b++;
-	}
+		b++;	
 	putchar('\n');
 	return (0);
 }
