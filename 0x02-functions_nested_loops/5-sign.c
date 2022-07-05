@@ -3,7 +3,7 @@
 /**
  * print_sign - Prints + if greater than 0, 0 if zer and - if less than 0
  *
- * @n - The input number as character
+ * @n: The input number as character
  *
  * Return: 1 if greater that 0, 0 if zero or -1 if kess than 0
  */
