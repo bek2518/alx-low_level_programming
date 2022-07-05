@@ -2,6 +2,8 @@
  /**
   * _islower - checks for lowecase character
   *
+  * Description: _islower prints 1 if lowercase and 0 if others
+  *
   * Return: 1 if c is lowercase, otherwise prints 0
   */
 
