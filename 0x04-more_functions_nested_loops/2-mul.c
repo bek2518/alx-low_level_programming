@@ -6,8 +6,7 @@
  * @b: The second character to be inserted 
  * Return: multiplication
  */
-
 int mul(int a, int b)
 {
-	return (a * b);
+return (a * b);
 }
