@@ -5,7 +5,7 @@
  * @n: Number of time printed
  */
 void print_diagonal(int n)
-{ 
+{
 	int a, b;
 
 	if (n > 0)
