@@ -4,7 +4,7 @@
  * print_triangle - prints a triangle with size
  * @size: The size of the triangle
  */
-void print_traingle(int size)
+void print_triangle(int size)
 {
 	int row, column, space, pound;
 
