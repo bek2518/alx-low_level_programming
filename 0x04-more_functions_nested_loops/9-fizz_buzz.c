@@ -9,6 +9,7 @@
 int main(void)
 {
 	int n, a, b;
+
 	for (n = 1; n <= 100; n++)
 	{
 		a = n % 3;
