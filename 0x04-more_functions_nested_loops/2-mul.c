@@ -3,7 +3,7 @@
 /**
  * mul - multiplies two integers
  * @a: The first character to be inserted
- * @b: The second character to be inserted 
+ * @b: The second character to be inserted
  * Return: multiplication
  */
 
