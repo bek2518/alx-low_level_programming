@@ -13,6 +13,7 @@ int main(void)
 	k = 2;
 
 	printf("%lu", j);
+	printf(", %lu", k);
 
 	for (i = 1; i < 91; i++)
 	{
