@@ -3,7 +3,8 @@
 /**
  * reset_to_98 - takes a pointer to an int as parameter
  * and update the value it points to to 98
- * Return: 0
+ * @n: input integer
+ * Return: no return
  */
 
 void reset_to_98(int *n)
