@@ -10,18 +10,27 @@
 
 int main(void)
 {
-	int r = 0, c = 0;
-	time_t t;
+	int i, random, sum;
+	char key[63] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
+	char password[100];
 
-	srand((unsigned int) time(&t));
-	while (c < 2772)
+	srand(time(NULL));
+	sum = 0;
+	i = 0;
+
+	while (sum < 2772)
 	{
-		r = rand() % 128;
-		if ((c + r) > 2772)
-			break;
-		c = c +r;
-		printf("%c", r);
+		random = rand() % 128;
+		password[i] = key[random];
+		sum = sum + password[i];
+		i++;
 	}
-	printf("%c\n", (2772 - c));
+
+	random = 2772 - sum;
+	password[i] = random;
+	i++;
+	password[i] = '\0';
+	printf("%s", password);
+
 	return (0);
 }
