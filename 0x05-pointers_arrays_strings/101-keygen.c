@@ -18,9 +18,9 @@ int main(void)
 	sum = 0;
 	i = 0;
 
-	while (sum < 2772)
+	while (sum < (2772 - 122))
 	{
-		random = rand() % 128;
+		random = rand() % 62;
 		password[i] = key[random];
 		sum = sum + password[i];
 		i++;
