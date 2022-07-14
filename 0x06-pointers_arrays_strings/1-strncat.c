@@ -5,7 +5,7 @@
  * @src: the string to append
  * @dest: string to concatenates with src
  * @n: number of bytes to append
- * Return: sting dest
+ * Return: string dest
  */
 
 char *_strncat(char *dest, char *src, int n)
