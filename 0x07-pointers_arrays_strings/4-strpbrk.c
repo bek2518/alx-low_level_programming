@@ -7,9 +7,9 @@
  * @accept: second string
  * Return: a pointer to the byte in s that matches
  * one of the bytes in accept, or Null if no such
- * byte us found
+ * byte is found
  */
-char *_strpbrk(char *s, char * accept)
+char *_strpbrk(char *s, char *accept)
 {
 	unsigned int i, j;
 
