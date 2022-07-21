@@ -3,6 +3,7 @@
 /**
  * helper - the natural square root of a number
  * @n:number
+ * @i: helper integer
  * Return: natural square root or -1
  */
 int helper(int n, int i)
