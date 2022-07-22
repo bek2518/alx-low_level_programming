@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - program that prits its name
+ * main - program that prits all the argument it reveives
  * @argc: count of command line segments
  * @argv: string of commandline arguments
  * Return: 0
