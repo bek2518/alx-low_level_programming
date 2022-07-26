@@ -1,1 +1,1 @@
-teaches malloc, calloc, and free
+Teaches malloc, calloc, and free
