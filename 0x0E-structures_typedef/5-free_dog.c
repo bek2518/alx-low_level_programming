@@ -4,7 +4,6 @@
 /**
  * free_dog - frees dog
  * @d: struct dog
- * @Return: None
  */
 void free_dog(dog_t *d)
 {
