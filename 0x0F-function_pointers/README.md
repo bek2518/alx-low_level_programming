@@ -1,1 +1,1 @@
-teaches function pointers
+Teaches function pointers
