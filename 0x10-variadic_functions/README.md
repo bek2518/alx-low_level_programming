@@ -1,0 +1,1 @@
+Teaches about variadic function
