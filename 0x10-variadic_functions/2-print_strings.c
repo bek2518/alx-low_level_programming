@@ -5,7 +5,7 @@
  * @separator: string to be printed between
  * @n: number of strings passed
  */
-void print_strinfs(const char *separator, const unsigned int n, ...)
+void print_strings(const char *separator, const unsigned int n, ...)
 {
 	va_list valist;
 	unsigned int i;
