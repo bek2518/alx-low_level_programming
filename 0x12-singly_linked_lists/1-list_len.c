@@ -3,7 +3,7 @@
 /**
  * list_len - number of elements ina lined list_t list
  * @h: linked list
- * Return: number of elements 
+ * Return: number of elements
  */
 size_t list_len(const list_t *h)
 {
