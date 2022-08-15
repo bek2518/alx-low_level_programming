@@ -23,7 +23,7 @@ void free_listp2(listp_t **head)
 
 /**
  * free_listint_safe -frees listint_t linked list
- * @head: head
+ * @h: head
  * Return: size of the list that was freed
  */
 size_t free_listint_safe(listint_t **h)
