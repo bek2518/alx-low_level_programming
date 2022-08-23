@@ -3,7 +3,6 @@
 
 /**
  * error_file - checks if file can be opened
- * @filename: filename
  * @file_from: origin
  * @file_to: destination
  * @argv: argument vector
@@ -32,7 +31,6 @@ int main(int argc, char *argv[])
 {
 	int file_from, file_to, err_close;
 	ssize_t nchars, nwr;
-
 	char buf[1024];
 
 	if (argc != 3)
