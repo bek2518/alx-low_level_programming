@@ -4,7 +4,7 @@
  * hash_table_get - retreives a value associated with key
  * @ht: hash table array
  * @key: key
- * Return: value associated with the key 
+ * Return: value associated with the key
  * or NULL if key can't be found
  */
 char *hash_table_get(const hash_table_t *ht, const char *key)
@@ -19,14 +19,14 @@ char *hash_table_get(const hash_table_t *ht, const char *key)
 	if (key == NULL)
 		return (NULL);
 
-	if (ht->array[index] ==NULL)
+	if (ht->array[index] == NULL)
 		return (NULL);
 
 	if (strcmp(ht->array[index]->key, key) == 0)
 		return (ht->array[index]->value);
-	
+
 	node = ht->array[index];
-	
+
 	while (node != NULL)
 	{
 		if (strcmp(node->key, key) == 0)
